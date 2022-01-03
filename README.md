@@ -102,7 +102,7 @@ your JSX.
 
 **Remember: you can destructure a nested object.**
 
-### Pass a Function as a Prop
+### Pass a function as a prop
 
 There are times where you may want to pass a function as a prop. By doing this,
 you will be passing a reference to the function in the parent component which
@@ -135,10 +135,9 @@ Remember, an event listener in React is camelCased--`onClick` instead of
 Notice that when the button is clicked, it triggers the `handleClick` function
 in the parent component.
 
-## What you've learned
+## What you have learned
 
-**Congratulations!**
-In this practice you have learned:
+**Congratulations!** In this practice you have learned:
 
 1. Passing values as props from parent to child
 2. Checking props using React DevTools
@@ -148,4 +147,4 @@ In this practice you have learned:
 6. One way of using the onClick EventHandler
 
 [react-devtools-props]: ./images/react-devtools-props.png
-[codesandbox.io]: https://codesanbox.io
+[codesandbox.io]: https://codesandbox.io
