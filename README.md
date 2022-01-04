@@ -9,7 +9,7 @@ Make sure you are logged in to your [codesandbox.io] account.
 
 Navigate to the starter repo for this short practice by clicking the `Download
 Project` button at the bottom of the page. Use one of the following options to
-load the code into codesandbox.
+load the practice into codesandbox.
 
 ### Option 1 (the simplest option)
 
