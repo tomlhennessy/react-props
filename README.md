@@ -1,4 +1,4 @@
-# Practice: Functional Components and Passing Props
+# Practice: Functional Components And Passing Props
 
 In this practice you will create a functional component and pass props from a
 parent component to a child component.
