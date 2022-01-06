@@ -16,9 +16,9 @@ load the practice into codesandbox.
 - In the url of the starter repo, append `box` to the word `github` and hit
   `Enter` or `return` depending on your computer. You should be taken to
   [codesandbox.io] and the app should be loaded for you.
-- Example: If the repo was
-  `https://github.com/reduxjs/redux/tree/master/examples/todomvc`, it would
-  become `https://githubbox.com/reduxjs/redux/tree/master/examples/todomvc`
+- Example: To load the repo at
+  `https://github.com/appacademy/functional-component-jsx` into codesandbox, you
+  would go to `https://githubbox.com/appacademy/functional-component-jsx`.
 
 ### Option 2
 
@@ -137,14 +137,14 @@ in the parent component.
 
 ## What you have learned
 
-**Congratulations!** In this practice you have learned:
+**Congratulations!** In this practice you have learned how to
 
-1. Passing values as props from parent to child
-2. Checking props using React DevTools
-3. Adding prop values to the child component
-4. Destructuring props to remain DRY
-5. Passing a function as a prop
-6. One way of using the onClick EventHandler
+1. Pass values as props from parent to child
+2. Check props using React DevTools
+3. Add prop values to a child component
+4. Destructure props to remain DRY
+5. Pass a function as a prop
+6. Use an `onClick` event listener
 
 [react-devtools-props]: ./images/react-devtools-props.png
 [codesandbox.io]: https://codesandbox.io
