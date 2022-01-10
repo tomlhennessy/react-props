@@ -23,8 +23,8 @@ load the practice into codesandbox.
 ### Option 2
 
 - Navigate to [codesandbox.io] and sign in. Click `Create Sandbox`, then choose
- `Import Project` from the sidebar. Paste the link to the starter repo and
- click `Import and Fork`.
+  `Import Project` from the sidebar. Paste the link to the starter repo and
+  click `Import and Fork`.
 
 ## Create a Functional Component
 

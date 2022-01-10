@@ -26,4 +26,5 @@ const Showcase = () => {
     </div>
   );
 };
+
 export default Showcase;
