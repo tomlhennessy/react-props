@@ -55,7 +55,7 @@ functional component.
 
 In your codesandbox browser, go to the browser DevTools and open the React
 DevTools. Click on the `BaseStats` component. Under `props`, you should see your
-stats props object.
+`stats` props object look something like this (the numbers may differ):
 
 ![react-devtools-props]
 
@@ -146,5 +146,5 @@ in the parent component.
 5. Pass a function as a prop
 6. Use an `onClick` event listener
 
-[react-devtools-props]: ./images/react-devtools-props.png
+[react-devtools-props]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/react-redux/topics/intro-to-react/assets/react-devtools-props.png
 [codesandbox.io]: https://codesandbox.io
