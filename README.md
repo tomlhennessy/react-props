@@ -3,30 +3,12 @@
 In this practice you will create a functional component and pass props from a
 parent component to a child component.
 
-## Set up
+## Setup
 
-Make sure you are logged in to your [codesandbox.io] account.
+Click the `Download Project` button at the bottom of this page to go to the
+starter repo, then load the repo into [CodeSandbox].
 
-Navigate to the starter repo for this short practice by clicking the `Download
-Project` button at the bottom of the page. Use one of the following options to
-load the practice into codesandbox.
-
-### Option 1 (the simplest option)
-
-- In the url of the starter repo, append `box` to the word `github` and hit
-  `Enter` or `return` depending on your computer. You should be taken to
-  [codesandbox.io] and the app should be loaded for you.
-- Example: To load the repo at
-  `https://github.com/appacademy/functional-component-jsx` into codesandbox, you
-  would go to `https://githubbox.com/appacademy/functional-component-jsx`.
-
-### Option 2
-
-- Navigate to [codesandbox.io] and sign in. Click `Create Sandbox`, then choose
-  `Import Project` from the sidebar. Paste the link to the starter repo and
-  click `Import and Fork`.
-
-## Create a Functional Component
+## Create a functional component
 
 Create a functional component called `BaseStats` in your __src__ folder. It
 should have a `div` with a class of `base-stats` and an `h1` with the text
@@ -72,26 +54,26 @@ The second table data tag of each table row should contain the corresponding
 variable you destructured from props. Your code should look something like this:
 
 ```js
-  <table>
-    <tbody>
-      <tr>
-        <td>Hit Points</td>
-        <td>{props.stats.hp}</td>
-      </tr>
-      <tr>
-        <td>Attack</td>
-        <td>{props.stats.attack}</td>
-      </tr>
-      <tr>
-        <td>Defense</td>
-        <td>{props.stats.defense}</td>
-      </tr>
-      <tr>
-        <td>Speed</td>
-        <td>{props.stats.speed}</td>
-      </tr>
-    </tbody>
-  </table>
+<table>
+  <tbody>
+    <tr>
+      <td>Hit Points</td>
+      <td>{props.stats.hp}</td>
+    </tr>
+    <tr>
+      <td>Attack</td>
+      <td>{props.stats.attack}</td>
+    </tr>
+    <tr>
+      <td>Defense</td>
+      <td>{props.stats.defense}</td>
+    </tr>
+    <tr>
+      <td>Speed</td>
+      <td>{props.stats.speed}</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 The next goal is to make your code more concise and practice the DRY principle.
@@ -102,7 +84,7 @@ your JSX.
 
 **Remember: you can destructure a nested object.**
 
-### Pass a function as a prop
+## Pass a function as a prop
 
 There are times where you may want to pass a function as a prop. By doing this,
 you will be passing a reference to the function in the parent component which
@@ -114,9 +96,9 @@ called `handleClick`.
 Place this code inside the function:
 
 ```js
-  alert(
-    `Special Stats\n\tSpecial Attack: ${baseStats.spAttack}\n\tSpecial Defense: ${baseStats.spDef}`
-  );
+alert(
+  `Special Stats\n\tSpecial Attack: ${baseStats.spAttack}\n\tSpecial Defense: ${baseStats.spDef}`
+);
 ```
 
 Now pass the `handleClick` function as a prop called `clicker` to the
@@ -125,7 +107,7 @@ Now pass the `handleClick` function as a prop called `clicker` to the
 In your `BaseStats` component, destructure the `clicker` prop in your function
 component argument.
 
-Next, above your table, create a button with the text `Check Special Stats`.
+Next, above your table, create a button with the text "Check Special Stats".
 Give it a class of `sp-stats`. Pass an `onClick` event listener to the `button`
 element and assign it the `clicker` function prop.
 
@@ -146,5 +128,5 @@ in the parent component.
 5. Pass a function as a prop
 6. Use an `onClick` event listener
 
+[CodeSandbox]: https://codesandbox.io
 [react-devtools-props]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/react-redux/topics/intro-to-react/assets/react-devtools-props.png
-[codesandbox.io]: https://codesandbox.io
