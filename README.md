@@ -35,7 +35,7 @@ Pass this object to the `BaseStats` component using `stats` as the prop name.
 In your `BaseStats` component, bring in `props` as the argument to the
 functional component.
 
-In your codesandbox browser, go to the browser DevTools and open the React
+In your sandbox browser, go to the browser DevTools and open the React
 DevTools. Click on the `BaseStats` component. Under `props`, you should see your
 `stats` props object look something like this (the numbers may differ):
 
